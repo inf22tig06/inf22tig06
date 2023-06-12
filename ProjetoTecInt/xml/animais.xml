@@ -19,5 +19,35 @@
         <especie>Aves</especie>
         <idade>1</idade>
     </animal>
+    <animal>
+        <nome>poddle</nome>
+        <especie>Cao</especie>
+        <idade>1</idade>
+    </animal> 
+    <animal>
+        <nome>tubarao</nome>
+        <especie>peixe</especie>
+        <idade>15</idade>
+    </animal> 
+    <animal>
+        <nome>Humano</nome>
+        <especie>Homo-sapiens</especie>
+        <idade>1</idade>
+    </animal>
+    <animal>
+        <nome>cavalo</nome>
+        <especie>ingles</especie>
+        <idade>10</idade>
+  </animal> 
+    <animal>
+        <nome>sapo</nome>
+        <especie>Anfíbios</especie>
+    <idade>10</idade>
+  </animal> 
+    <animal>
+        <nome>cobra</nome>
+        <especie>Repteis</especie>
+    <idade>10</idade>
+    </animal>
 
 </animais>
