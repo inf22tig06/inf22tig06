@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<hmtl lang="pt">
+<head>
+    <link rel="icon" type="image/png" href="img/icon.ico">
+    <link rel="stylesheet" href="css/quiz.css">
+    <link rel="stylesheet" href="css/Footer.css">
+    <link rel="stylesheet" href="css/Menu.css">
+    <meta charset="utf-8">
+    <title>Site Animais</title>
+   
+</head>
+ <div class="menu" >
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Quiz.html">Quiz</a></li>
+            <li><a href="Animais.html">Animais</a></li>
+            <li><a href="xmldow.html">Xml</a></li>
+            <li><a href="Formulario.html">Formulario</a></li>   
+        </ul> 
+</div>   
+    
+  <body>
+
+<div class="Quiz">
+ <fieldset>
+    <legend>.</legend>
+    <a>1. Qual o animal?</a><br><br>
+    
+    <a>1.</a><br>
+    <audio controls>
+        <source src="audio/ovelha.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio><br>
+    <input type="radio" name="question1" >Vaca <br>
+    <input type="radio" name="question1">Cobra <br>
+    <input type="radio" name="question1"id="correct1">Ovelha <br>
+    <input type="radio" name="question1">Cão <br><br>
+
+    <a>2.</a><br>
+    <audio controls>
+        <source src="audio/gato.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio><br>
+    <input type="radio" name="question2" id="correct2">Gato <br>
+    <input type="radio" name="question2">Pato <br>
+    <input type="radio" name="question2" >Flamingo <br>
+    <input type="radio" name="question2">Foca <br><br>
+
+    <a>3.</a><br>
+    <audio controls>
+        <source src="audio/ganso.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio><br>
+    <input type="radio" name="question3"id="correct3" >Ganso <br>
+    <input type="radio" name="question3">Rato <br>
+    <input type="radio" name="question3">Leão <br>
+    <input type="radio" name="question3">Girafa <br><br>
+     
+    <a>4.</a><br>
+    <audio controls>
+        <source src="audio/dolphin.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio><br>
+    <input type="radio" name="question4" >Esquilo <br>
+    <input type="radio" name="question4">Cheetah <br>
+    <input type="radio" name="question4">Baleia <br>
+    <input type="radio" name="question4"id="correct4">Golfinho <br><br>
+
+    <input class="butao" type="submit" name="submit" value="Enviar Respostas" onClick="result()">
+</fieldset>    
+</div>
+
+<script type="text/javascript">
+function result()
+{
+	var score=0;
+	if(document.getElementById('correct1').checked)
+		{	score++;
+		}
+	if(document.getElementById('correct2').checked)
+		{	score++;
+		}
+	if(document.getElementById('correct3').checked)
+		{	score++;
+		}
+    if(document.getElementById('correct4').checked)
+		{	score++;
+		}
+ alert("Your score is:"+score);
+ 
+
+}
+</script>
+      
+      
+      
+<footer>
+        <div>
+             <p>Copyright &copy;2023 Feito por <a href="https://github.com/inf22tig06">inf22tig06</a></p>
+        </div>  
+</footer>
+</body> 
+</hmtl>
+
+
+
