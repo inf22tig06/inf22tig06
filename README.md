@@ -1,2 +1,2 @@
 # inf22tig06
-read me
+Trabalho prático de Tecnologias Internet
