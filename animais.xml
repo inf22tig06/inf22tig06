@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animais xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="animal_schema.xsd">
+
+    <animal>
+        <nome>Gato</nome>
+        <especie>Felis catus</especie>
+        <idade>5</idade>
+    </animal>
+
+    <animal>
+        <nome>Cachorro</nome>
+        <especie>Canis lupus familiaris</especie>
+        <idade>3</idade>
+    </animal>
+
+    <animal>
+        <nome>Pássaro</nome>
+        <especie>Aves</especie>
+        <idade>1</idade>
+    </animal>
+    <animal>
+        <nome>poddle</nome>
+        <especie>Cao</especie>
+        <idade>1</idade>
+    </animal> 
+    <animal>
+        <nome>tubarao</nome>
+        <especie>peixe</especie>
+        <idade>15</idade>
+    </animal> 
+    <animal>
+        <nome>Humano</nome>
+        <especie>Homo-sapiens</especie>
+        <idade>1</idade>
+    </animal>
+    <animal>
+        <nome>cavalo</nome>
+        <especie>ingles</especie>
+        <idade>10</idade>
+  </animal> 
+    <animal>
+        <nome>sapo</nome>
+        <especie>Anfíbios</especie>
+    <idade>10</idade>
+  </animal> 
+    <animal>
+        <nome>cobra</nome>
+        <especie>Repteis</especie>
+    <idade>10</idade>
+    </animal>
+
+</animais>
